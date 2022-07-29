@@ -7,8 +7,10 @@
   font-family: "Roboto", sans-serif;
 }
 
-.nav {
+nav {
     height: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
