@@ -31,6 +31,16 @@ h1 {
 
 .subheader {
   font-size: 36px;
+  margin: 16px 0 24px 0;
+}
+
+button {
+  background-color: #05c7cf;
+  color: #fff;
+  border:  none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 a {
@@ -50,4 +60,78 @@ ul {
 li {
   list-style-type: none;
   padding-left: 16px;
+}
+
+
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#about,
+#discord,
+#contact {
+  padding: 48px 0;
+}
+
+/* 
+ABOUT
+*/
+
+#about {
+  background-color: #f8ffdc;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_img-wrapper {
+  width: 40%;
+  padding: 0 24px;
+}
+
+img {
+  width: 100%;
+}
+
+.section_description-wrapper {
+  width: 60%;
+  padding: 0 24px;
+}
+
+.section_description-para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* 
+DISCORD
+*/
+
+#discord {
+  background-color: #cefeff;
+}
+
+/* 
+CONTACT
+*/
+
+#contact {
+  background-color: #dce9ff;
 }
