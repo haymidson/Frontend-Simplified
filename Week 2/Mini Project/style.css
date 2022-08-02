@@ -70,13 +70,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 
 
 #about,
 #discord,
-#contact {
+#contact,
+footer {
   padding: 48px 0;
 }
 
@@ -134,4 +136,42 @@ CONTACT
 
 #contact {
   background-color: #dce9ff;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+/* 
+FOOTER
+*/
+
+footer {
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_logo {
+  max-width: 480px;
+  margin-bottom: 16px;
+}
+
+.footer_links {
+  margin-bottom: 32px;
+}
+
+.footer_link {
+  padding: 0 16px;
 }

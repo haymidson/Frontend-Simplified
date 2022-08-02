@@ -35,13 +35,15 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section_description">
-          <div class="section_description-wrapper">
-            <div>
-              <p class="section_description-para">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-                dicta sint enim iusto, autem ipsa placeat praesentium molestias
-                amet. Rem voluptates temporibus ex vero, odio porro suscipit
+        <div class="row">
+
+          <div class="section_description">
+            <div class="section_description-wrapper">
+              <div>
+                <p class="section_description-para">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+                  dicta sint enim iusto, autem ipsa placeat praesentium molestias
+                  amet. Rem voluptates temporibus ex vero, odio porro suscipit
                 possimus iure quasi?
               </p>
               <p class="section_description-para">
@@ -56,17 +58,20 @@
             <img src="./HTML Practise Assets/about.jpg" alt="" />
           </figure>
         </div>
+      </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section_description">
-          <figure class="about_img-wrapper">
+        <div class="row">
+
+          <div class="section_description">
+            <figure class="about_img-wrapper">
             <img src="./HTML Practise Assets/discord.png" alt="Discord" />
           </figure>
           <div class="section_description-wrapper">
-              <p class="section_description-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            <p class="section_description-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
                 reiciendis ducimus, distinctio temporibus necessitatibus cumque,
                 voluptatem, earum fugit obcaecati doloremque unde illum natus illo
                 error tempora corrupti officia placeat aut?
@@ -79,35 +84,35 @@
               </p>
             </div>
           </div>
+        </div>
       </section>
 
-      <section id="'contact">
+      <section id="contact">
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="johndoe@example.com" />
+          <input type="email" placeholder="johndoe@example.com" />
           <span>Message</span>
           <textarea
             name="text"
-            placeholder="your message here"
+            placeholder="Your message here."
             id=""
             cols="30"
             rows="10"
           ></textarea>
-        </form>
-        <div>
           <button>Send</button>
-        </div>
+        </form>
+
       </section>
     </main>
 
     <footer>
-      <img src="./HTML Practise Assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#courses">Courses</a>
+      <img class="footer_logo" src="./HTML Practise Assets/FES.svg" alt="" />
+      <div class="footer_links">
+        <a class="footer_link" href="#about">About</a>
+        <a class="footer_link" href="#discord">Discord</a>
+        <a class="footer_link" href="#contact">Contact</a>
+        <a class="footer_link" href="#courses">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
