@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, span {
     line-height: 1.25;
 }
 
+h1 {
+    font-size: 36px;
+}
+
 p {
     line-height: 1.5;
     font-size: 16px;
@@ -34,6 +38,10 @@ li {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.text-purple {
+    color: rgba(26, 201, 172, 0.664);
 }
 
 /* NAVIGATION */
@@ -60,7 +68,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: rgba(26, 201, 172, 0.664);
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -68,7 +76,7 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: #26726e;
 }
 
 .personal__logo {
@@ -90,6 +98,9 @@ nav {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    max-width: 500px ;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-me__picture--mask {
@@ -97,14 +108,25 @@ nav {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.16);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.16); /*adds subtle shadow*/
+    margin-bottom: 28px;
 }
 
 .about-me__picture {
     width: 100%;
 
     /* fixing my picture */
-    transform: scale(3.75);
+    transform: scale(4.75);
     padding-top: 28px;
     padding-right: 4px;
+}
+
+.about-me__info--title {
+    /* font-size: 20px; */
+    margin-bottom: 12px;
+}
+
+.about-me__info--para{
+    font-size: 20px;
+    margin-bottom: 28px;
 }
