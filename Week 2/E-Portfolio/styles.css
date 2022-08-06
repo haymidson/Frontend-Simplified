@@ -41,7 +41,7 @@ li {
 }
 
 .text-purple {
-    color: rgba(26, 201, 172, 0.664);
+    color: #3BE4E2;
 }
 
 /* NAVIGATION */
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: rgba(26, 201, 172, 0.664);
+    background-color: #3BE4E2;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -89,6 +89,11 @@ nav {
 /* ABOUT ME */
 #about-me {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__info {
     display: flex;
     flex-direction: column;
 }
@@ -129,4 +134,17 @@ nav {
 .about-me__info--para{
     font-size: 20px;
     margin-bottom: 28px;
+}
+
+.about-me__link {
+    font-size: 20px;
+    color: #3BE4E2;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
