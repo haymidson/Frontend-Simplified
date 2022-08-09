@@ -422,18 +422,11 @@ footer {
     padding: 8% 0;
 }
 
-.footer__logo--wrapper {
-    height: 100px;
-    width: 100px;
-
-}
-
 .footer__logo--image {
-    width: 100%;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
-    padding-bottom: 8px;
-    transform: scale(g);
-
+    transform: scale(1.4);
 }
 
 .footer__social-link,
