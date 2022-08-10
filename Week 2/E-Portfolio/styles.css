@@ -246,7 +246,7 @@ nav {
 
 .wave {
     display: inline-block;
-    animation: animate-wave 500ms infinite ease-in-out;
+    animation: animate-wave 500ms 15 ease-in-out;
 }
 
 @keyframes animate-wave {
@@ -476,7 +476,7 @@ footer {
     .project__description--title {
         font-size: 30px;
     }
-    
+
     .project__description--para {
         font-size: 14px;
     }
